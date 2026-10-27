@@ -2,12 +2,121 @@ header {
   background-image: url(img/7854.jpg);
   background-position: center;
 }
-.fotodeperfil img {
-  width: 150px;
-  height: 200px;
-  float: right;
-  border-radius: 50%;
+
+.fotodeperfil {
+  max-width: 900px;
+  margin: -40px auto 20px;
+  text-align: center;
+  position: relative;
 }
+
+.fotodeperfil img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  border: 5px solid white;
+  float: none;
+  display: block;
+  margin: auto;
+}
+
 body {
-  background-color: beige;
+  background-color: #f8f1f3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #3c3035;
+}
+
+header {
+  background-image: url("img/7854.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 900px;
+  height: 170px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #542b3a;
+  background-color: white;
+  padding: 12px 25px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+main {
+  background-color: white;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eadce1;
+}
+
+h2 {
+  color: #8b3753;
+  font-size: 20px;
+  border-left: 5px solid #f06079;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.menu-cv {
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.menu-cv a {
+  color: #8b3753;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.menu-cv a:hover {
+  color: #f06079;
+}
+
+.pie-cv {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: url("img/7854.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #542b3a;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.pie-cv a {
+  color: #542b3a;
+  text-decoration: none;
+  font-size: 18px;
 }
